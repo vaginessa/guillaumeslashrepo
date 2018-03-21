@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>GuillaumeSlash</title>
+	<link href="/static/repomaker/css/repo/page.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
+
+	<header class="repo-header mdl-layout__header mdl-layout__header--waterfall">
+		<div class="mdl-layout__header-row">
+			
+<div class="mdl-layout-title">
+	<span class="only-desktop">
+		To install these apps on your Android phone, add them to F-Droid.
+		<a href="https://f-droid.org" target="_blank">Get F-Droid</a>
+	</span>
+
+	<div id="repo-buttons-add">
+		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored only-mobile"
+				onclick="showInstallButtons()">
+			Add to F-Droid
+		</button>
+	</div>
+	<a href="assets/qr_code.html" class="rm-no-underline only-desktop">
+		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+			Add to F-Droid
+		</button>
+	</a>
+	<div id="repo-buttons-install" class="only-mobile">
+		<a href="https://f-droid.org" target="_blank" class="rm-no-underline">
+			<button id="repo-buttons-install-need"
+					class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+				I need F-Droid
+			</button>
+		</a>
+		<a href="fdroidrepos://repomaker.grobox.de/repos/user_61/repo_59/repo?fingerprint=803FEF02EF65A092851F381210DECFA878CB15EE91E4E8B4830BBAC6A8CDD3F3" class="repo-buttons-install-have">
+			<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+					onclick="addRepo()">
+				I have F-Droid
+			</button>
+		</a>
+	</div>
+</div>
+
+<nav class="mdl-navigation">
+	
+	<a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20F-Droid%20repo%3A%20GuillaumeSlash&url=https%3A//repomaker.grobox.de/repos/user_61/repo_59/repo%3Ffingerprint%3D803FEF02EF65A092851F381210DECFA878CB15EE91E4E8B4830BBAC6A8CDD3F3"
+	   target="_blank">
+		<img src="assets/twitter.png"/>
+	</a>
+	
+	<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//repomaker.grobox.de/repos/user_61/repo_59/repo%3Ffingerprint%3D803FEF02EF65A092851F381210DECFA878CB15EE91E4E8B4830BBAC6A8CDD3F3"
+	   target="_blank">
+		<img src="assets/facebook.png"/>
+	</a>
+</nav>
+
+		</div>
+	</header>
+
+	<main class="mdl-layout__content">
+		
+		<section class="mdl-grid mdl-cell--10-col">
+			<div class="mdl-cell mdl-cell--12-col repo-content">
+				<h3>GuillaumeSlash</h3>
+				<p>The repo of the Guillaume Slsh youtuber.</p>
+			</div>
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/org.schabi.newpipe.41.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">NewPipe</div>
+		<div class="rm-app-card-summary">Lightweight YouTube frontend</div>
+		<div class="rm-app-card-description">Lightweight YouTube frontend that&#39;s supposed to be used without the proprietary YouTube-API or any of Google&#39;s (proprietary) play-services. NewPipe only parses the Y...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 0.11.0 (Nov. 7, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/org.fdroid.fdroid.1000011.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">F-Droid</div>
+		<div class="rm-app-card-summary">The app store that respects freedom and privacy</div>
+		<div class="rm-app-card-description">F-Droid is an installable catalogue of FOSS (Free and Open Source
+Software) applications for the Android platform. The client makes it
+easy to browse, install, and k...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 1.0 (Oct. 18, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/com.amaze.filemanager.63.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">Amaze</div>
+		<div class="rm-app-card-summary">Manage local files</div>
+		<div class="rm-app-card-description">Light and smooth file manager following the Material Design guidelines.Features: Basic features like cut, copy, delete, compress, extract etc. easily accessible Work...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 3.2.1 (Sept. 2, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/org.mozilla.klar.11.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">Firefox Klar</div>
+		<div class="rm-app-card-summary">Get The Privacy Browser. Fast &amp; always private from Firefox, a browser you trust</div>
+		<div class="rm-app-card-description">Browse like no one&amp;rsquo;s watching. The new Firefox Klar automatically blocks a wide range of online trackers &amp;mdash; from the moment you launch it to the second yo...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 2.0 (Sept. 27, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/acr.browser.barebones.98.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">Lightning</div>
+		<div class="rm-app-card-summary">A fast and secure browser.</div>
+		<div class="rm-app-card-description">Lightning is a simple, fast web browser that focuses on design, security, and efficiency. It uses material design, doesn&#39;t track you, give you lots of options to pro...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 4.5.1 (March 18, 2018)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/org.mariotaku.twidere.395.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">Twidere</div>
+		<div class="rm-app-card-summary">Microblogging client</div>
+		<div class="rm-app-card-description">Features include: Built in image viewer and map viewer Direct messages with conversation style Extension support like Twicca, but more friendly for users and develop...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 3.7.1 (Oct. 18, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/com.fsck.k9.material.24006.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">K9 Material (unofficial)</div>
+		<div class="rm-app-card-summary">Send and receive mails</div>
+		<div class="rm-app-card-description">This is a unofficial fork of the K-9 Mail email client with a material design style instead of the normal one. It will be updated in tandem with the main repository.</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 5.207.4 (May 14, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/com.fsck.k9.23271.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">K-9 Mail</div>
+		<div class="rm-app-card-summary">Full-featured email client</div>
+		<div class="rm-app-card-description">E-mail client supporting multiple accounts, POP3, IMAP and Push IMAP. Can do encryption if APG and/or OpenKeychain is installed -- depending on the version. Settings...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 5.208 (Aug. 30, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/com.android.keepass.154.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">KeePassDroid</div>
+		<div class="rm-app-card-summary">KeePass-compatible password safe</div>
+		<div class="rm-app-card-description">A password safe, compatible with KeePass. Keepass is available on all the major desktop platforms: on GNU/Linux KeePassX is a well-established client. Portable editi...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 2.0.6.4 (Nov. 7, 2016)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/org.thoughtcrime.securesms.333.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">Signal</div>
+		<div class="rm-app-card-summary">Privacy is possible, Signal makes it easy.</div>
+		<div class="rm-app-card-description">Privacy is possible, Signal makes it easy.Using Signal, you can communicate instantly while avoiding SMS fees, create groups so that you can chat in real time with a...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 4.15.5 (March 18, 2018)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/ws.xsoh.etar.14.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">Etar</div>
+		<div class="rm-app-card-summary">Material designed calendar to enter and look up appointments</div>
+		<div class="rm-app-card-description">Features: Month view. Week, day &amp;amp; agenda view. Uses Android calendar sync. Works with Google Calendar, Exchange.. etc. Material design. Dark &amp;amp; Light Theme. F...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 1.0.12 (May 24, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/ch.blinkenlights.android.vanilla.10571.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">Vanilla Music</div>
+		<div class="rm-app-card-summary">Listen to and manage songs</div>
+		<div class="rm-app-card-description">Music player with a simple interface similar to the stock music player. Supports browsing by folder, queueing, shake-to-skip and more. Supports the same audio format...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 1.0.57 (Nov. 5, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/ch.blinkenlights.android.vanillaplug.160.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">Headphone detector for Vanilla Music</div>
+		<div class="rm-app-card-summary">Launch Vanilla when a headset is plugged in</div>
+		<div class="rm-app-card-description">This app runs a service that will launch Vanilla Music whenever Android broadcasts a HEADSET_PLUG event.Please note that you need to start the application at least o...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 1.6 (May 24, 2016)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/com.kanedias.vanilla.lyrics.7.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">Vanilla Lyrics Search</div>
+		<div class="rm-app-card-summary">Vanilla Music player Lyrics Search plugin</div>
+		<div class="rm-app-card-description">This app is a plugin. Prior to use it you should have Vanilla Music installed. Once both player and this plugin are installed, request a context menu from library sc...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 1.2.0 (Oct. 18, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/com.kanedias.vanilla.audiotag.14.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">Vanilla Tag Editor</div>
+		<div class="rm-app-card-summary">Vanilla Music player Tag Editor plugin</div>
+		<div class="rm-app-card-description">This app is a plugin. Prior to use it you should have Vanilla Music installed. Once both player and this plugin are installed, request a context menu from library sc...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 1.2.5 (Nov. 3, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/com.kanedias.vanilla.coverfetch.7.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">Vanilla Cover Fetch</div>
+		<div class="rm-app-card-summary">Vanilla Music player Cover Fetch plugin</div>
+		<div class="rm-app-card-description">This app is a plugin. Prior to use it you should have Vanilla Music installed. Once both player and this plugin are installed, request a context menu from library sc...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 1.3.0 (Oct. 18, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/org.sufficientlysecure.viewer.2797.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">Document Viewer</div>
+		<div class="rm-app-card-summary">Viewer for many document formats</div>
+		<div class="rm-app-card-description">Document Viewer supports: PDF DjVu XPS (OpenXPS) Comic Books (cbz) (NO support for cbr (rar compressed)) FictionBook (fb2, fb2.zip)This apk supports all ABIs: ARM, x...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 2.7.9 (Nov. 27, 2016)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/com.vrem.wifianalyzer.33.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">WiFiAnalyzer</div>
+		<div class="rm-app-card-summary">Optimize your WiFi network</div>
+		<div class="rm-app-card-description">Optimize your WiFi network by examining surrounding WiFi networks, measuring their signal strength as well as identifying crowded channels.Features: Identify nearby ...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 1.8.7 (Oct. 18, 2017)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+			
+
+<div class="rm-app-card rm-app-card--no-hover mdl-cell mdl-cell--6-col
+			mdl-card mdl-shadow--2dp mdl-color--white"
+	 >
+
+	<div class="rm-app-card-left"
+		 style="background-image: url(icons-640/com.mapswithme.maps.pro.802.png)">
+	</div>
+	<div class="rm-app-card-right">
+		<div class="rm-app-card-title">MAPS.ME</div>
+		<div class="rm-app-card-summary">MAPS.ME is an open-source maps application.</div>
+		<div class="rm-app-card-description">MAPS.ME&amp;nbsp;is an open source cross-platform offline maps application, built on top of crowd-sourced OpenStreetMap data. It was publicly released for&amp;nbsp;iOS&amp;nbsp;...</div>
+		
+		
+		<div class="rm-app-card-updated">
+			Version 8.0.2-Web (March 18, 2018)
+		</div>
+		
+	</div>
+
+</div>
+
+
+			
+		</section>
+		<footer class="mdl-mega-footer" id="f-droid">
+			<div class="mdl-mega-footer__top-section mdl-grid">
+				<div class="mdl-cell mdl-cell--4-col fdroid-icon">
+	<img src="assets/f-droid.png"/>
+</div>
+<div class="mdl-cell mdl-cell--8-col fdroid-text">
+	<p>Use F-Droid to install apps and ensure access to app updates.</p>
+
+	<p>
+		F-Droid is an independent, community-sourced app store.
+		Adding a repo to  F-Droid makes the apps within it available for download
+		and ensures that you have access to secure app updates.
+	</p>
+	<p>
+		Download F-Droid at <a href="https://f-droid.org">f-droid.org</a>.
+	</p>
+</div>
+
+			</div>
+			<div class="mdl-mega-footer__bottom-section">
+				<span class="repo-made-with">Made with ❤ using repomaker.</span>
+				Create your own collections to share at
+				<a href="https://gitlab.com/fdroid/repomaker">f-droid.org/repomaker</a>.
+			</div>
+		</footer>
+
+	</main>
+</div>
+
+
+<script src="material.min.js"></script>
+<script type="text/javascript">
+	var add = document.getElementById('repo-buttons-add');
+	var install = document.getElementById('repo-buttons-install');
+	add.style.display = 'inline-block';
+	install.style.display = 'none';
+	function showInstallButtons() {
+		add.style.display = 'none';
+		install.style.display = 'inline-block';
+	}
+	function addRepo() {
+		add.style.display = 'inline-block';
+		install.style.display = 'none';
+	}
+</script>
+
+
+</body>
+</html>
